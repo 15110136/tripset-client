@@ -1,0 +1,22 @@
+.register {
+  &__img {
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    background-image: url($uri-bg-upload);
+    background-size: 100% 100%;
+    background-position: 50% 50%;
+    transition: background-image .2s ease;
+  }
+
+  &__avatar {
+    display: none;
+  }
+
+  .frm {
+    position: relative;
+  }
+}
